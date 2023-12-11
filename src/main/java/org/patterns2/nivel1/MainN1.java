@@ -1,6 +1,6 @@
 package org.patterns2.nivel1;
 
-public class Main {
+public class MainN1 {
     public static void main(String[] args) {
         Broker broker = new Broker();
 
