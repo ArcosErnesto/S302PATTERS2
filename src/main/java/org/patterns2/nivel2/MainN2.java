@@ -10,8 +10,12 @@ public class MainN2 {
 
         ShoeShop shop = new ShoeShop(portal);
 
-        shop.makePurchase(card);
-        shop.makePurchase(payPal);
-        shop.makePurchase(bank);
+        Double amount1 = 15.95;
+        Double amount2 = 70.35;
+        Double amount3 = 26.0;
+
+        shop.makePurchase(card, amount1);
+        shop.makePurchase(payPal, amount2);
+        shop.makePurchase(bank, amount3);
     }
 }

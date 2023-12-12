@@ -1,5 +1,5 @@
 package org.patterns2.nivel2;
 
 public interface Payment {
-    void makePayment();
+    void makePayment(Double amount);
 }

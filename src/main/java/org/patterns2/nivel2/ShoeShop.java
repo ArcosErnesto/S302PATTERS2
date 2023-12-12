@@ -7,7 +7,7 @@ public class ShoeShop {
         this.paymentPortal = paymentPortal;
     }
 
-    public void makePurchase(Payment payment){
-        paymentPortal.processPayment(payment);
+    public void makePurchase(Payment payment, Double amount){
+        paymentPortal.processPayment(payment, amount);
     }
 }
