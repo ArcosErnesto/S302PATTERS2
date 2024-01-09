@@ -9,7 +9,9 @@ public class MainN1 {
         Observer agency3 = new Agency3(broker);
 
         broker.setState(15.7);
+        System.out.println("");
         broker.setState(25.3);
+        System.out.println("");
         broker.setState(12);
     }
 }

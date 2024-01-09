@@ -1,6 +1,6 @@
 package org.patterns2.nivel1;
 
-public abstract class Observer {
-    protected Broker broker;
+public interface Observer {
+
     public abstract void update();
 }
